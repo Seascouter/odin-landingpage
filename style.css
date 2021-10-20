@@ -1,0 +1,48 @@
+.header {
+    height: 60px;
+    padding: 30px;
+    background-color: #1f2937;
+    border: 2px solid gray;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.header .logo {
+    flex: 1 1 auto;
+    height: 20px;
+    font-family: "Arial";
+    font-size: 24px;
+    color: #F9FaF8;
+}
+.header .links {
+    flex: 1 1 auto;
+    height: 20px;
+    font-family: "Tahoma";
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.signin {
+    height: 20px;
+    background-color: #1f2937;
+    border: 2px solid gray;
+}
+.info {
+    height: 20px;
+    background-color: #1f2937;
+    border: 2px solid gray;
+}
+.quote {
+    height: 20px;
+    background-color: #1f2937;
+    border: 2px solid gray;
+}
+.ad {
+    height: 20px;
+    background-color: #1f2937;
+    border: 2px solid gray;
+}
+.footer {
+    height: 20px;
+    background-color: #1f2937;
+    border: 2px solid gray;
+}
