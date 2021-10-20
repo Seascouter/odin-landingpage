@@ -69,6 +69,7 @@
 .signin .img {
     width: 500px;
     height: auto;
+    background-color: solid gray;
 }
 
 .info {
@@ -103,6 +104,7 @@
     height: 150px;
     width: 150px;
     border: 4px solid #3882F6;
+    background-color: solid gray;
 }
 .info .infopics .infopt .infot {
     font-size: 18px;
@@ -111,23 +113,79 @@
 }
 
 .quote {
-    height: 20px;
+    height: auto;
     width: auto;
-    background-color: #1f2937;
+    background-color: #E5E7EB;
     border: 2px solid gray;
+    padding: 40px;
 }
+.quote .said {
+    font-family: "Tahoma", sans-serif;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    text-align: center;
+}
+.quote .author {
+    font-family: "Tahoma", sans-serif;
+    font-size: 18px;
+    color: #1F2937;
+    text-align: right;
+}
+
 .ad {
-    height: 20px;
+    height: 250px;
     width: auto;
-    background-color: #1f2937;
-    border: 2px solid gray;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+.ad .box {
+    height: 150px;
+    width: 1024px;
+    background-color: #3882F6;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+.ad .box .textsections {
+    height: auto;
+    width: 512px;
+    display: flex;
+    flex-direction: column;
+}
+.ad .box .textsections .cta {
+    font-family: "Tahoma", sans-serif;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.ad .box .textsections .ctadesc {
+    font-family: "Tahoma", sans-serif;
+    font-size: 14px;
+    color: #F9FAF8;
+}
+.ad .box .sup {
+    height: 30px;
+    width: 125px;
+    font-size: 14px;
+    color: #F9FAF8;
+    background: #3882F6;
+    border: 2px solid #F9FAF8;
+    text-align: center;
+}
+
+
 .footer {
     height: 20px;
     width: auto;
     background-color: #1f2937;
     border: 2px solid gray;
 }
+
+
 div {
     border: 1px solid red;
 }
