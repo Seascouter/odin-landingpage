@@ -13,7 +13,7 @@
     width: auto;
     font-family: "Arial";
     font-size: 24px;
-    color: #F9FaF8;
+    color: #F9FAF8;
     padding-left: 150px;
 }
 .header .links {
@@ -23,16 +23,55 @@
     flex-direction: row;
     height: 30px;
     width: auto;
-    font-family: "Tahoma";
+    font-family: "Tahoma", sans-serif;
     font-size: 18px;
     color: #E5E7EB;
 }
+
+
 .signin {
-    height: 20px;
+    height: auto;
     width: auto;
     background-color: #1f2937;
     border: 2px solid gray;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 30px;
 }
+.signin .text {
+    height: 250px;
+    width: 500px;
+    font-family: "Tahoma", sans-serif;
+    padding-left: 150px;
+    
+}
+.signin .text .title {
+    height: 50px;
+    width: auto;
+    font-size: 48px;
+    color: #F9FAF8;
+}
+.signin .text .pgh {
+    height: auto;
+    width: auto;
+    font-size: 18px;
+    color: #E5E7EB;
+    padding-bottom: 20px;
+}
+.signin .text .signup{
+    height: 30px;
+    width: 125px;
+    font-size: 14px;
+    color: #F9FAF8;
+    background: #3882F6;
+    text-align: center;
+}
+.signin .img {
+    width: 500px;
+    height: auto;
+}
+
 .info {
     height: 20px;
     width: auto;
@@ -59,4 +98,7 @@
 }
 div {
     border: 1px solid red;
+}
+img {
+    border: 1px solid blue;
 }
