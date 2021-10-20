@@ -1,48 +1,62 @@
 .header {
     height: 60px;
+    width: auto;
     padding: 30px;
     background-color: #1f2937;
-    border: 2px solid gray;
     display: flex;
     flex-direction: row;
     gap: 20px;
 }
 .header .logo {
     flex: 1 1 auto;
-    height: 20px;
+    height: 30px;
+    width: auto;
     font-family: "Arial";
     font-size: 24px;
     color: #F9FaF8;
+    padding-left: 150px;
 }
 .header .links {
-    flex: 1 1 auto;
-    height: 20px;
+    gap: 20px;
+    padding-right: 150px;
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    width: auto;
     font-family: "Tahoma";
     font-size: 18px;
     color: #E5E7EB;
 }
 .signin {
     height: 20px;
+    width: auto;
     background-color: #1f2937;
     border: 2px solid gray;
 }
 .info {
     height: 20px;
+    width: auto;
     background-color: #1f2937;
     border: 2px solid gray;
 }
 .quote {
     height: 20px;
+    width: auto;
     background-color: #1f2937;
     border: 2px solid gray;
 }
 .ad {
     height: 20px;
+    width: auto;
     background-color: #1f2937;
     border: 2px solid gray;
 }
 .footer {
     height: 20px;
+    width: auto;
     background-color: #1f2937;
     border: 2px solid gray;
+}
+div {
+    border: 1px solid red;
 }
